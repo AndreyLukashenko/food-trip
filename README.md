@@ -1,1 +1,1 @@
-# food-trip
+# FoodTrip
