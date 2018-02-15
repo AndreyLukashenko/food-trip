@@ -1,0 +1,15 @@
+{
+  "name": "food-trip-backend",
+  "version": "0.0.0",
+  "description": "food-trip-backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrei Lukashenka",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
