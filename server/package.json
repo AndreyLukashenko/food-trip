@@ -4,12 +4,24 @@
   "description": "food-trip-backend",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
+    "tsc": "tsc",
+    "prestart": "npm run tsc",
+    "start": "node ./dist/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andrei Lukashenka",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.2"
+    "body-parser": "~1.4.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.2",
+    "typescript": "~2.5.3"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.8",
+    "@types/express": "^4.11.1",
+    "@types/express-session": "^1.15.8",
+    "@types/node": "^9.4.6",
+    "nodemon": "^1.15.0"
   }
 }
